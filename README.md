@@ -1,5 +1,5 @@
 # Welcome to your Expo app 👋
-
+ IT IS RUN'S ON EXPO 54
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
