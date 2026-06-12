@@ -4,10 +4,9 @@
     "slug": "Weather-forcating",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/weather_forecast_icon.png",
     "scheme": "weatherforcating",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -18,8 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.codexcraft030.Weatherforcating"
     },
     "web": {
       "output": "static",
@@ -43,6 +42,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8d4b3c38-5690-42cf-aa09-3075f2b12576"
+      }
+    },
+    "owner": "codex030",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8d4b3c38-5690-42cf-aa09-3075f2b12576"
     }
   }
 }
